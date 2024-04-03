@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dictionary lookup</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fetch.js" defer></script>
+  </head>
+  <body>
+    <h1>English dictionary</h1>
+
+    <form id="search">
+      Look up a word: <input type="text" id="word-input"/>
+      <input type="submit" value="Search!">
+    </form>
+
+    <hr />
+
+    <div id="results" class="hidden">
+      The definition of <a href="" id="word"></a> is:
+      <blockquote id="definition"></blockquote>
+      <hr />
+    </div>
+
+  </body>
+</html>
